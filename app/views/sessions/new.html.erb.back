@@ -3,9 +3,8 @@
 
 <div class="row">
   <div class="span6 offset3">
-    <p>New user? <%= link_to "Sign up now!", signup_path %></p>
-
-    <%= form_tag sessions_path do %>
+<!-- 
+    <%= form_tag sessions_path %>
       
       <%= label_tag :email %>
       <%= text_field_tag :email %>
@@ -15,5 +14,8 @@
 
       <%= submit_tag "Sign in", class: "btn btn-large btn-primay" %>
     <% end %>
+    
+-->
+    <p>New user? <%= link_to "Sign up now!", signup_path %></p>
   </div>
 </div>
